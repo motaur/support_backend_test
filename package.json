@@ -1,0 +1,29 @@
+{
+  "name": "samrt_agent_ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levBerlinkov/smart_agent_ai_server.git"
+  },
+  "author": "Lev Berlinkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levBerlinkov/smart_agent_ai_server/issues"
+  },
+  "homepage": "https://github.com/levBerlinkov/smart_agent_ai_server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cosine-similarity": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs-extra": "^11.2.0",
+    "openai": "^3.2.1"
+  }
+}
