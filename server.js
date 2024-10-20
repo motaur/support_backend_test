@@ -91,7 +91,7 @@ app.post('/chat', async (req, res) => {
 
     const x = {
         role: 'system',
-        content: 'generate short question in the same topic as it started,  that can be answered from the knowlege base. Do not repeat questions that already been asked',
+        content: 'generate short question from a user in the same topic as it started, that can be answered from the knowlege base. Do not repeat questions that already been asked',
       }
 
     const conversationWithSuggestionRequest = [...conversations[userId], x];
